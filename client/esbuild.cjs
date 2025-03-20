@@ -4,7 +4,7 @@ esbuild.build({
   entryPoints: ['bin/cli.js'],
   bundle: true,
   platform: 'node',
-  outfile: 'bin/cli.mjs',
+  outfile: 'dist/cli.mjs',
   format: 'esm',
   inject: ['cjs-shim.ts'],
 });
